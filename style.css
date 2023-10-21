@@ -1,0 +1,78 @@
+.header{
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+}
+.about{
+    margin-left: auto;
+    margin-right: 10px;
+}
+.title{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 4px 8px ;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.mainvisual{
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+.maintitle{
+    border-bottom: 1px solid black;
+    margin: 50px auto 0 auto;
+    display: table;
+
+}
+.about-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.about-content{
+    display: flex;
+    width: 80%;
+    margin: 20px auto 0 auto;
+    gap: 20px;
+    max-width: 600px;
+}
+.about-name{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.about-text{
+    font-size: 14px;
+}
+.bicycle-img{
+    width: 250px;
+    height: 150px;
+
+}
+.bicycle-content{
+    display: flex;
+    gap: 15px;
+    margin: 30px;
+    justify-content: center;
+
+}
+.bicycle-title{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.bicycle-text{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
